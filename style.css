@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+One&display=swap');
+
+.container{
+    font-family: 'Inter';
+	box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 5vh;
+    margin: 0;
+    padding:0;
+   
+}
+
+h1{
+    cursor: pointer;
+}
+
+.score1{
+	height: 90vh;
+    font-size: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#1E1E1E;
+}
+
+.score2{
+    font-size: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#222325 ;
+
+}
+
+.lawan>.pemain{
+	display: grid;
+    grid-template-columns: 6% 94%;
+}
+.pemain>.nama{
+	background-color: #222325;
+    padding: 4px;
+    color:#FFFFFF;
+}
+
+.musuh>.pemain{
+    display: grid;
+    grid-template-columns: 94% 6%;
+}
+
+.pemain>.identitas{
+	background-color: #FFD600 ;
+    padding: 4px;
+    text-align: center;
+}
+
+.musuh>.pemain>.nama{
+	background-color: #535456;
+    padding: 4px;
+    text-align: right;
+}
+
+@media screen and (max-width:700px){
+
+}
