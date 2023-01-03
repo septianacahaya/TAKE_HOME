@@ -16,8 +16,6 @@ body{
     padding: 0;
 }
 
-
-
 h1{
     cursor: pointer;
 }
@@ -30,7 +28,7 @@ h1{
 }
 
 .score1{
-	height: 92vh;
+	height: 573px;
     font-size: 90px;
     text-align: center;
     color: #FFFFFF;
@@ -38,7 +36,7 @@ h1{
 }
 
 .score2{
-    height: 92vh;
+    height: 573px;
     font-size: 90px;
     text-align: center;
     color: #FFFFFF;
