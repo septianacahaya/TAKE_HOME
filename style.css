@@ -4,17 +4,24 @@
     font-family: 'Inter';
 	box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(2,1fr);  
-}
-
-h1{
-    cursor: pointer;
+    grid-template-columns: repeat(2,1fr);
+    height: 5vh;
+    margin: 0;
+    padding:0;
+   
 }
 
 body{
     margin: 0;
     padding: 0;
 }
+
+
+
+h1{
+    cursor: pointer;
+}
+
 .identitas{
     width:10%;
 }
@@ -31,8 +38,8 @@ body{
 }
 
 .score2{
-	height: 92vh;
-    font-size: 92px;
+    height: 92vh;
+    font-size: 90px;
     text-align: center;
     color: #FFFFFF;
     background-color:#222325 ;
@@ -41,7 +48,6 @@ body{
 
 .lawan>.pemain{
 	display: flex;
-    
 }
 .pemain>.nama{
 	background-color: #222325;
@@ -50,8 +56,7 @@ body{
 }
 
 .musuh>.pemain{
-	display: flex;
-    
+    display: flex;
 }
 
 .pemain>.identitas{
@@ -66,6 +71,6 @@ body{
     text-align: right;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:648px){
 
 }
