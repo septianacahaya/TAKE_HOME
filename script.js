@@ -28,7 +28,7 @@ poin.forEach((e)=>{
             if(topY < mouseY && poin < 25) {
                 let hasil = poin + 1;
                 if (hasil < 10) {
-                  e.innerHTML = `0${hasil}`;
+                  e.innerHTML = `${hasil}`;
                 } else {
                   e.innerHTML = hasil;
                 }
@@ -36,7 +36,7 @@ poin.forEach((e)=>{
               if(topY > mouseY && poin > 0) {
                 let hasil = poin - 1;
                 if (hasil < 10) {
-                  e.innerHTML = `0${hasil}`;
+                  e.innerHTML = `${hasil}`;
                 } else {
                   e.innerHTML = hasil;
                 }
@@ -48,7 +48,7 @@ poin.forEach((e)=>{
         if(pressY < tekanY && poin<25) {
             let hasil = poin+1;
             if(hasil<10){
-                e.innerHTML = `0${hasil}`;
+                e.innerHTML = `${hasil}`;
             }
             else{
                 e.innerHTML = hasil;
@@ -57,7 +57,7 @@ poin.forEach((e)=>{
         if(pressY > tekanY && poin>0) {  
             let hasil = poin-1;
             if(hasil<10){
-                e.innerHTML = `0${hasil}`;
+                e.innerHTML = `${hasil}`;
             }
             else{
             e.innerHTML = hasil;
