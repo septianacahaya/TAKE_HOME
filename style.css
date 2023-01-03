@@ -4,19 +4,20 @@
     font-family: 'Inter';
 	box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    height: 5vh;
-    margin: 0;
-    padding:0;
-   
+    grid-template-columns: repeat(2,1fr);  
 }
 
 h1{
     cursor: pointer;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .score1{
-	height: 90vh;
+	height: 92vh;
     font-size: 90px;
     text-align: center;
     color: #FFFFFF;
@@ -24,7 +25,7 @@ h1{
 }
 
 .score2{
-    font-size: 90px;
+    font-size: 92px;
     text-align: center;
     color: #FFFFFF;
     background-color:#222325 ;
