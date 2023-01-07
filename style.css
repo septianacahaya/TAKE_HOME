@@ -4,16 +4,15 @@
     font-family: 'Inter';
 	box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(2,1fr);  
+    grid-template-columns: repeat(2,1fr);
+    
+   
 }
 
 body{
     margin: 0;
     padding: 0;
-    
 }
-
-
 
 h1{
     cursor: pointer;
@@ -21,16 +20,16 @@ h1{
 
 .identitas{
     width:10%;
-    height:22px;
+    height:23px;
 }
 .nama{
     width: 100%;
-    height:14px;
+    height:15px;
 }
 
 .score1{
-    height: 93vh;
-    font-size: 90px;
+    height: 97vh;
+    font-size: 100px;
     text-align: center;
     color: #FFFFFF;
     background-color:#1E1E1E;
@@ -39,11 +38,14 @@ h1{
 }
 
 .score2{
-    height: 93vh;
-    font-size: 90px;
+    height: 97vh;
+    font-size: 100px;
     text-align: center;
     color: #FFFFFF;
-    background-color:#222325 ;
+    background-color:#222325;
+    top: 30%; 
+    left:72%; 
+    
     
 }
 
@@ -73,6 +75,19 @@ h1{
 }
 
 
-@media screen and (max-width:720px){
-
+@media screen and (orientation:portrait){
+    .score1{
+        min-height: 100%;
+        top: 30%; 
+        left:72%;  
+    }
+     .score2{
+        min-height: 100%; 
+        top: 30%; 
+        left:22%; 
+    }
 }
+    
+
+
+ 
