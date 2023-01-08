@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     
+   
 }
 
 body{
@@ -19,27 +20,32 @@ h1{
 
 .identitas{
     width:10%;
-    height:54px;
+    height:23px;
 }
 .nama{
     width: 100%;
-    height:46px;
+    height:15px;
 }
 
 .score1{
-    height: 93vh;
+    height: 98vh;
     font-size: 100px;
     text-align: center;
     color: #FFFFFF;
-    background-color:#1E1E1E;  
+    background-color:#1E1E1E;
+     
+    
 }
 
 .score2{
-    height: 93vh;
+    height: 98vh;
     font-size: 100px;
     text-align: center;
     color: #FFFFFF;
-    background-color:#222325;    
+    background-color:#222325;
+    top: 30%; 
+    left:72%; 
+    
     
 }
 
@@ -68,21 +74,9 @@ h1{
     text-align: right;
 }
 
-body{
-    height:100%;
+.body,html{
+	height:100%;
 }
-@media only screen 
-  and (min-device-width: 468px) 
-  and (orientation: landscape) {
-    .angka1,.angka2{
-        top:22% !important; 
-    }
-    .angka1{
-        left:20%;;
-    }
-
-}
-
 
 @media screen and (orientation:portrait){
     .score1{
@@ -96,7 +90,3 @@ body{
         left:22%; 
     }
 }
-    
-
-
- 
